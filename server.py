@@ -9,6 +9,7 @@ Refer to LICENSE.txt for terms of modification and redistribution.
 
 import tornado.ioloop
 import tornado.web
+import tornado.options
 
 import json
 import os
@@ -28,6 +29,7 @@ import config
 import display
 
 
+tornado.options.define('port', type=int, default='8080', help=u'port number')
 class RequestHandler(tornado.web.RequestHandler):
     """Base class for all request handlers. Injects authenticated self.user."""
 

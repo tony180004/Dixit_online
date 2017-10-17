@@ -1,6 +1,6 @@
 {
     // Port for the server to listen on.
-    "port" : 1280,
+    "port" : 8080,
 
     // Sets of cards available, used to build a deck for a game.
     "card_sets" : {
