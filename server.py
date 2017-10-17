@@ -10,6 +10,7 @@ Refer to LICENSE.txt for terms of modification and redistribution.
 import tornado.ioloop
 import tornado.web
 import tornado.options
+import tornado.httpserver
 
 import json
 import os
@@ -385,6 +386,6 @@ application = Application([
 ], **settings)
 
 if __name__ == "__main__":
-
-    application.listen(settings['port'])
+    http_server = tornado.httpserver.HTTPServer(application)
+    http_server.listen(settings['port'])
     tornado.ioloop.IOLoop.instance().start()
