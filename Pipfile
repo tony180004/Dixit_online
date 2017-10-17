@@ -5,6 +5,7 @@ verify_ssl = true
 [packages]
 gunicorn = "*"
 tornado = "*"
+mysql-connector-python = "*"
 
 
 [requires]
