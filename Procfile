@@ -1,1 +1,1 @@
-web: gunicorn -k tornado server:app
+web: python server.py
