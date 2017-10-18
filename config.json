@@ -5,9 +5,14 @@
     // Sets of cards available, used to build a deck for a game.
     "card_sets" : {
         // <name-of-card-set> : [static/cards/<folder>, <is-default-checked>]
-        "Dixit" : ["dixit", true],
-        "Beauty" : ["beauty", true],
-        "New_Dixit" : ["new_dixit", true]
+        "Dixit_1" : ["dixit", true],
+        "Dixit_2" : ["new_dixit", true],
+        "張景嵐" : ["beauty", true],
+        "超現實主義" : ["surrealism", true],
+        "異色童話" : ["dark_fairy", true],
+        "可愛即是正義" : ["cute", true],
+        "名人" : ["celebility", true],
+        "中日韓女明星" : ["star_woman", true]
     },
 
     // utils.hash_obj() of password for /admin/ page
