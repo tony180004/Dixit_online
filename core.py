@@ -143,7 +143,7 @@ class Round(object):
 class Game(object):
     """Handles all data over the lifetime of a single game."""
 
-    CARDS_PER_PERSON = 6
+    CARDS_PER_PERSON = 8
     SCORE_FOR_TRICK = 1
     SCORE_FOR_LOSS = 2
     SCORE_FOR_CORRECT = 3
