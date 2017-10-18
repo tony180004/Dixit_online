@@ -6,7 +6,8 @@
     "card_sets" : {
         // <name-of-card-set> : [static/cards/<folder>, <is-default-checked>]
         "Dixit" : ["dixit", true],
-        "Beauty" : ["beauty", true]
+        "Beauty" : ["beauty", true],
+        "New_Dixit" : ["new_dixit", true]
     },
 
     // utils.hash_obj() of password for /admin/ page
