@@ -5,7 +5,8 @@
     // Sets of cards available, used to build a deck for a game.
     "card_sets" : {
         // <name-of-card-set> : [static/cards/<folder>, <is-default-checked>]
-        "Dixit" : ["dixit", true]
+        "Dixit" : ["dixit", true],
+        "Beauty" : ["beauty", true]
     },
 
     // utils.hash_obj() of password for /admin/ page
