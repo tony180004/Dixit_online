@@ -26,7 +26,7 @@ class WebPaths(object):
 class Images(object):
     """Client-side paths to images."""
 
-    BANNER      = url_join(WebPaths.IMAGES, 'banner.png')
+    BANNER      = url_join(WebPaths.IMAGES, 'banner1.png')
     BUNNY_READY = url_join(WebPaths.IMAGES, 'bunnyready.png')
     BUNNY_RUN   = url_join(WebPaths.IMAGES, 'bunnyrun.png')
     THINKING    = url_join(WebPaths.IMAGES, 'thinking.gif')
