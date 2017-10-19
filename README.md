@@ -1,14 +1,15 @@
-## Overview
+## 概觀
 
 ![alt text](http://i.imgur.com/y5Zv9Az.png "Revealing the correct card")
 
-## Installation
+## 安裝套件
 
 pip install -r requirements.txt
 
-## Starting The Server
+## 開server
 
-sudo ./run &
+sudo ./run &</br>
+之後瀏覽器打開locolhost:8080
 
 ## 不專業聲明
 此版本為參考https://github.com/arvoelke/Dixit  更改製作而成</br>
