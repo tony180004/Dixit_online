@@ -13,7 +13,7 @@ from utils import INFINITY
 class Limits(object):
     """Static parameter limits for validation."""
 
-    MIN_NAME = 3
+    MIN_NAME = 1
     MAX_NAME = 20
 
     MIN_PLAYERS = 3

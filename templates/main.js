@@ -343,8 +343,8 @@ $(document).ready(function() {
                 if (data.round.cards !== undefined) {
                     $.each(data.round.votes, function(puid, cid) {
                         var card = $('#' + cid);
-                        var randomLeft = Math.ceil(card.position().left + Math.random() * {{ display.Sizes.CARD_WIDTH - display.Sizes.TOKEN }});
-                        var randomTop = Math.ceil(card.offset().top + Math.random() * {{ display.Sizes.CARD_HEIGHT - display.Sizes.TOKEN }});
+                        var randomLeft = Math.ceil(card.position().left + Math.random() * {{ display.Sizes.CARD_WIDTH / 1.72 - display.Sizes.TOKEN }});
+                        var randomTop = Math.ceil(card.offset().top + Math.random() * {{ display.Sizes.CARD_HEIGHT / 1.72 - display.Sizes.TOKEN }});
                         card.append('<div class="token" title="' + textToHtml(data.players[puid])
                                   + '" style="left:' + randomLeft + 'px;top:' + randomTop
                                   + 'px;background-color:#' + data.colours[puid] + '">&nbsp;</div>');
