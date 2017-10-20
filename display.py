@@ -7,8 +7,8 @@ class Labels(object):
     """Text labels."""
 
     TITLE = 'Dixit'
-    NEW_GAME = '新遊戲'
-    DEFAULT_TEXT = '可在這裡輸入想說的話'
+    NEW_GAME = 'New Game'
+    DEFAULT_TEXT = 'Say something!'
 
 
 class WebPaths(object):
