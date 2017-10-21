@@ -241,7 +241,10 @@ $(document).ready(function() {
                                        : '&nbsp;') + '</td>');
 
                 // Name of player and option to kick them if host
-                var canKick = data.isHost;
+                var canKick = data.isHost
+                           && (data.state == {{ states.BEGIN }} || numPlayers > {{ limits.MIN_PLAYERS }})
+                           && data.state != {{ states.PLAY }}
+                           && data.state != {{ states.VOTE }};
                 scoreBoard.push('<td class="player">'
                               + (canKick ? '[<a class="kickPlayer" href="#" title="Kick Player" id="' + puid + '">x</a>] ' : '')
                               + '<span style="' + (puid == data.user ? 'font-weight:bold' : '') + '">'
