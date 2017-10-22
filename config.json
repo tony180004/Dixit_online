@@ -7,12 +7,13 @@
         // <name-of-card-set> : [static/cards/<folder>, <is-default-checked>]
         "Dixit_1" : ["dixit", true],
         "Dixit_2" : ["new_dixit", true],
-        "張景嵐" : ["beauty", true],
-        "超現實主義" : ["surrealism", true],
-        "異色童話" : ["dark_fairy", true],
-        "可愛即是正義" : ["cute", true],
-        "名人" : ["celebility", true],
-        "中日韓女明星" : ["star_woman", true]
+        "Dixit_3" : ["dixit_3", true],
+        "張景嵐" : ["beauty", false],
+        "超現實主義" : ["surrealism", false],
+        "異色童話" : ["dark_fairy", false],
+        "可愛即是正義" : ["cute", false],
+        "名人" : ["celebility", false],
+        "中日韓女明星" : ["star_woman", false]
     },
 
     // utils.hash_obj() of password for /admin/ page
